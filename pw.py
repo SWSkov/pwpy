@@ -3,9 +3,9 @@
 
 import sys, pyperclip, string, random
 
-PASSWORDS = {'email': 'F7minlBDDuvMJuxESSKHFhTxFtjVB6',
-             'blog': 'VmALvQyKAxiVH5G8v01if1MLZF3sdt',
-             'luggage': '12345'}
+PASSWORDS = {'email': 'yz6B3A0i7JtyMU6',
+             'blog': '1smXkBH9y01MNLo',
+             'luggage': '3SI2krgawTuI4Ny'}
 
 def pass_generator(size = 15, chars = string.ascii_letters + string.digits):
     return ''.join(random.choice(chars) for _ in range(size))
